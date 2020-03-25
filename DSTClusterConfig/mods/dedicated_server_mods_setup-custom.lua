@@ -41,3 +41,7 @@ ServerModSetup("588560555")
 -- Epic Healthbar
 -- https://steamcommunity.com/sharedfiles/filedetails/?id=1185229307
 ServerModSetup("1185229307")
+
+-- Store room
+-- https://steamcommunity.com/sharedfiles/filedetails/?id=623749604
+ServerModSetup("623749604")

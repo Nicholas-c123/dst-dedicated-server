@@ -42,24 +42,24 @@ return {
 
   -- Food Values - Item Tooltips (Server and Client)
   -- https://steamcommunity.com/sharedfiles/filedetails/?id=458940297
-  ["workshop-458940297"]={
-    configuration_options={
-      DFV_ClientPrediction="default",
-      DFV_FueledSettings="default",
-      DFV_Language="EN",
-      DFV_MinimalMode="default",
-      DFV_PercentReplace="default",
-      DFV_ShowACondition="default",
-      DFV_ShowADefence="default",
-      DFV_ShowAType="default",
-      DFV_ShowDamage="default",
-      DFV_ShowFireTime="default",
-      DFV_ShowInsulation="default",
-      DFV_ShowTemperature="default",
-      DFV_ShowUses="default"
-    },
-    enabled=true
-  },
+-- ["workshop-458940297"]={
+--   configuration_options={
+--     DFV_ClientPrediction="default",
+--     DFV_FueledSettings="default",
+--     DFV_Language="EN",
+--     DFV_MinimalMode="default",
+--     DFV_PercentReplace="default",
+--     DFV_ShowACondition="default",
+--     DFV_ShowADefence="default",
+--     DFV_ShowAType="default",
+--     DFV_ShowDamage="default",
+--     DFV_ShowFireTime="default",
+--     DFV_ShowInsulation="default",
+--     DFV_ShowTemperature="default",
+--     DFV_ShowUses="default"
+--   },
+--   enabled=true
+-- },
 
   -- Quick Pick
   -- https://steamcommunity.com/sharedfiles/filedetails/?id=501385076
@@ -67,9 +67,22 @@ return {
 
   -- Auto Tooth Trap Reset
   -- https://steamcommunity.com/sharedfiles/filedetails/?id=588560555
-  ["workshop-588560555"]={ configuration_options={  }, enabled=true },
+--  ["workshop-588560555"]={ configuration_options={  }, enabled=true },
 
   -- Epic Healthbar
   -- https://steamcommunity.com/sharedfiles/filedetails/?id=1185229307
-  ["workshop-1185229307"]={ configuration_options={  }, enabled=true }
+  ["workshop-1185229307"]={ configuration_options={  }, enabled=true },
+  -- Store room
+  -- https://steamcommunity.com/sharedfiles/filedetails/?id=623749604
+  ["workshop-623749604"]={
+    configuration_options={
+      Craft="Normal",
+      Destroyable="DestroyByPlayer",
+      FoodSpoilage=1,
+      Language="En",
+      Position="Center",
+      Slots=80 
+    },
+    enabled=true 
+  } 
 }
